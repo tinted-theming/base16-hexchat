@@ -1,24 +1,29 @@
 # Base16 for HexChat (and XChat)
 
-See the [Base16 repository](https://github.com/base16-project/base16) for more information, and was built with [base16-builder-python](https://github.com/InspectorMustache/base16-builder-python).
+See the [Base16 repository][1] for more information.
 
-This template maps Base16 colors in a way to preserve the original intent of mIRC and HexChat colors, whose color palettes contain colors not identically representable with Base16.
+This template maps Base16 colors in a way to preserve the original
+intent of mIRC and HexChat colors, whose color palettes contain colors
+not identically representable with Base16.
 
 ## Usage
 
 ### Manual
 
-Copy your chosen theme from the [colors](colors) directory, and replace the `colors.conf` in your HexChat configuration directory:
+Copy your chosen theme from the [colors](colors) directory, and replace
+the `colors.conf` in your HexChat configuration directory:
 
 *    Windows: `%APPDATA%\HexChat`
-*    Microsoft Store: `%LOCALAPPDATA%\Packages\39215TingPing.HexChat_fqe8h3fzrj50c\LocalCache\Roaming\HexChat`
+*    Microsoft Store:
+     `%LOCALAPPDATA%\Packages\39215TingPing.HexChat_fqe8h3fzrj50c\LocalCache\Roaming\HexChat`
 *    Unix: `~/.config/hexchat`
 *    Flatpak: `~/.var/app/io.github.Hexchat/config/hexchat`
 *    Snap: `~/snap/hexchat/current/.config/hexchat`
 
 ### Script (unix systems only)
 
-Switch themes using the theme switcher script. It accepts a single argument which is the kebab-case name of the theme. For example:
+Switch themes using the theme switcher script. It accepts a single
+argument which is the kebab-case name of the theme. For example:
 
 ```shell
 ./bin/base16-hexchat-theme gruvbox-dark-medium
@@ -26,13 +31,15 @@ Switch themes using the theme switcher script. It accepts a single argument whic
 
 #### Run from anywhere
 
-Add the following to your shell `*rc` file and make sure the path to where you cloned base16-hexchat is correct:
+Add the following to your shell `*rc` file and make sure the path to
+where you cloned base16-hexchat is correct:
 
 ```shell
 export PATH=/your/path/to/base16-hexchat/bin:$PATH
 ```
 
-Open a new terminal window or source your shell file and now you can switch the theme easily from anywhere.
+Open a new terminal window or source your shell file and now you can
+switch the theme easily from anywhere.
 
 ```shell
 base16-hex-theme gruvbox-dark-medium
@@ -40,7 +47,8 @@ base16-hex-theme gruvbox-dark-medium
 
 ## Documentation of `colors.conf` format
 
-(Borrowed from [jtmohr](https://github.com/jtmohr/xchat-colors-solarized), thank you)
+(Borrowed from
+[jtmohr](https://github.com/jtmohr/xchat-colors-solarized), thank you)
 
 Index   | Description
 ---     | ---
@@ -71,3 +79,11 @@ Index   | Description
 263     | New message
 264     | Away user
 265     | Spell checker
+
+## Contributing
+
+See [`CONTRIBUTING.md`][2], which contains building and contributing
+instructions.
+
+[1]: https://github.com/base16-project/base16
+[2]: CONTRIBUTING.md
