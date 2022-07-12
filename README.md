@@ -85,5 +85,5 @@ Index   | Description
 See [`CONTRIBUTING.md`][2], which contains building and contributing
 instructions.
 
-[1]: https://github.com/base16-project/base16
+[1]: https://github.com/base16-project/home
 [2]: CONTRIBUTING.md
