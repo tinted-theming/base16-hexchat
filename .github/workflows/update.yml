@@ -1,4 +1,4 @@
-name: Update with the latest base16 colorschemes
+name: Update with the latest colorschemes
 on:
   workflow_dispatch:
   schedule:
@@ -20,5 +20,5 @@ jobs:
           commit_message: Update with the latest tinted-theming colorschemes
           branch: ${{ github.head_ref }}
           commit_user_name: tinted-theming-bot
-          commit_user_email: base16themeproject@proton.me
-          commit_author: tinted-theming-bot <base16themeproject@proton.me>
+          commit_user_email: tintedtheming@proton.me
+          commit_author: tinted-theming-bot <tintedtheming@proton.me>
